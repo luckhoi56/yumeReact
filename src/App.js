@@ -1,26 +1,14 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import React from "react";
+import Grid from './components/layout/Grid'
+function App(){
+  return(
+    <Grid>
+  <Grid.Row columns={3}>
+    <Grid.Column>1</Grid.Column>
+    <Grid.Column>2</Grid.Column>
+    <Grid.Column>3</Grid.Column>
+  </Grid.Row>
+</Grid>
+  )
 }
-
 export default App;
