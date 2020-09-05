@@ -12,7 +12,9 @@ flex-wrap: nowrap;
 flex-direction: row;
 flex-wrap: wrap;
 }
-
+.grid__row--columns-5 > [class^="grid__column"] {
+  width: 20%;
+  }
 .grid__row--columns-4 > [class^="grid__column"] {
 width: 25%;
 }
