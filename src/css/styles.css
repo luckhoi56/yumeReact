@@ -26,3 +26,7 @@ width: 33%;
 .grid__row--columns-2 > [class^="grid__column"] {
 width: 50%;
 }
+
+.grid__row--columns-1 > [class^="grid__column"] {
+  width: 100%;
+}
