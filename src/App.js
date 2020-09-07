@@ -1,19 +1,19 @@
 import React from "react";
-import Grid from './components/layout/Grid';
-import Background from './components/layout/Background';
+import { Container, Row, Col } from 'react-bootstrap';
+//import Background from './components/layout/Background';
 function App(){
   return(
-    <Grid>
-    <Grid.Row columns={3}>
-    
-      <Grid.Column width={3}>
-      <Background></Background>
-      </Grid.Column>
-    </Grid.Row>
-  </Grid>
-  
-  
-   
+    <Container>
+    <Row>
+      <Col>1 of 2</Col>
+      <Col>2 of 2</Col>
+    </Row>
+    <Row>
+      <Col>1 of 3</Col>
+      <Col>2 of 3</Col>
+      <Col>3 of 3</Col>
+    </Row>
+  </Container>
   )
 }
 export default App;

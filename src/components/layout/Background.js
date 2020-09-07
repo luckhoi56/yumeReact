@@ -4,7 +4,8 @@ import background from './background.png';
 var sectionStyle = {
     width: "100%",
     height: "400px",
-    backgroundImage: `url(${background})`
+    backgroundImage: `url(${background})`,
+    
 }
 class Background extends Component {
     render(){
