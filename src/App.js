@@ -3,15 +3,15 @@ import Grid from './components/layout/Grid';
 import Background from './components/layout/Background';
 function App(){
   return(
-  
-  <Grid>
-  <Grid.Row columns={3}>
-    <Grid.Column width={3}>
-      <Background></Background>
-    </Grid.Column>
+    <Grid>
+    <Grid.Row columns={3}>
     
-  </Grid.Row>
+      <Grid.Column width={3}>
+      <Background></Background>
+      </Grid.Column>
+    </Grid.Row>
   </Grid>
+  
   
    
   )

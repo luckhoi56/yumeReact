@@ -1,12 +1,18 @@
-import React from 'react';
+import React, { Component} from "react";
 import background from './background.png';
 
-function Background(){
-    return(
-       <div
-           style={{backgroundImage:`url(${background})`}}>
-           Nice Snippet
-       </div>
-    );
+var sectionStyle = {
+    width: "100%",
+    height: "400px",
+    backgroundImage: `url(${background})`
+}
+class Background extends Component {
+    render(){
+        return(
+            <section style={sectionStyle}>
+
+            </section>
+        );
+    }
 }
 export default Background;
