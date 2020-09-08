@@ -5,6 +5,11 @@ function Header(){
     return(
         <Container>
             <Row>
+            <Col xs={{  offset: 3}} md={{offset: 5}}>
+                <h1 style={{marginLeft:'-50px'}}>Yume House Pho</h1>
+            </Col>
+            </Row>
+            <Row>
                 
                 <Col xs={{  offset: 3}} md={{offset: 5}}>
                     
