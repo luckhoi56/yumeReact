@@ -1,18 +1,22 @@
 import React from 'react';
 import {Container} from 'react-bootstrap';
-import Item from '../item'
+import Item from '../item';
+import PhoFile from '../images/phoFile.jpg';
+import ComThit from '../images/comThit.jpg';
 //items will have title, price, and pictures.
 var items = [
-    {id:'1',title:'Beef Noodle',price:'6.75',source:'../images/phoFile.jpg'},
-    {id:'2',title:'Chicken Noodle',price:'6.75', source: '../images/comThit.jpg'}
+    {id:'1',title:'Beef Noodle',price:'6.75',source:PhoFile},
+    {id:'2',title:'Chicken Noodle',price:'6.75', source: ComThit}
   ]; 
   
-function Body(){
-    return(
-        const listItems = items.map((item)=>
-        <Item title= item.title/>
-        )
-    )
-}
+const Body = ()=>(
+    <Container>   
+    {
+        items.map(item=>(
+            <Item title = {item.title} source = {item.source}/>
+        ))
+    }
+    </Container>
+)
 
 export default Body;
