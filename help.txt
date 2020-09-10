@@ -1,0 +1,27 @@
+
+https://www.w3schools.com/css/tryit.asp?filename=trycss_grid
+this website to help about grid
+
+https://linguinecode.com/post/responsive-grid-layout-react-component
+grid for react
+
+grid base react
+https://dev.to/victormagarlamov/creating-a-flexbox-based-grid-component-in-react-i5c
+
+classes in react
+https://mtm.dev/multiple-classnames-css-modules-react/
+
+added background image
+https://www.nicesnippets.com/blog/how-to-set-background-image-in-react
+
+another good background image
+https://stackoverflow.com/questions/39195687/setting-a-backgroundimage-with-react-inline-styles
+
+reat list of object:
+https://stackoverflow.com/questions/32157286/rendering-react-components-from-array-of-objects
+
+another good example to render object in a list
+https://stackoverflow.com/questions/40344584/rendering-list-items-using-map-in-react
+
+how to display list of item in react
+https://www.robinwieruch.de/react-list-component

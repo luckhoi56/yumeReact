@@ -20,10 +20,16 @@ function Header(){
                 
             </Row>
             <Row>
-                <Col xs={{  offset: 0}} md={{offset: 0}}>
+                <Col style={{marginBottom:'50px'}} xs={{  offset: 0}} md={{offset: 0}}>
                 <Carous></Carous>
                 </Col>
                
+            </Row>
+            <Row>
+            <Col style={{marginBottom:'50px'}} xs={{  offset: 0}} md={{offset: 1}}>
+                <h1>Yume House Pho</h1>
+                <h2>200 E 1st St, Pomona, CA. Phone: 213-204-1676</h2>
+            </Col>
             </Row>
         </Container>
     );
