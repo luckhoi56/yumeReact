@@ -25,3 +25,6 @@ https://stackoverflow.com/questions/40344584/rendering-list-items-using-map-in-r
 
 how to display list of item in react
 https://www.robinwieruch.de/react-list-component
+
+difference between padding and margin
+https://stackoverflow.com/questions/62741030/using-margin-vs-padding

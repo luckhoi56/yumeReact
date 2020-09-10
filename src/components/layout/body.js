@@ -10,10 +10,10 @@ var items = [
   ]; 
   
 const Body = ()=>(
-    <Container>   
+    <Container >   
     {
         items.map(item=>(
-            <Item title = {item.title} source = {item.source}/>
+            <Item title = {item.title} source = {item.source} price={item.price}/>
         ))
     }
     </Container>
